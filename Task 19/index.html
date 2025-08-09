@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Gallery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Portfolio Gallery</h1>
+    <p>A look into what I’ve built</p>
+    <div class="filters">
+      <button class="filter-btn" data-category="all">All</button>
+      <button class="filter-btn" data-category="web">Web</button>
+      <button class="filter-btn" data-category="mobile">Mobile</button>
+    </div>
+  </header>
+
+  <section class="gallery">
+
+    <div class="card" data-category="web">
+      <img src="images/Portfolio.png" alt="Project 1" class="modal-trigger">
+      <div class="card-content">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio using HTML, CSS.</p>
+        <a href="https://task-5-taupe.vercel.app/" class="btn">View Project</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="web">
+      <img src="images/remote.png" alt="Project 2" class="modal-trigger">
+      <div class="card-content">
+        <h3>Remote Internship</h3>
+        <p>Responsive design for a remote internship platform.</p>
+        <a href="https://task-6-sand.vercel.app/" class="btn">View Project</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="web">
+      <img src="images/Faq.png" alt="Project 3" class="modal-trigger">
+      <div class="card-content">
+        <h3>FAQ Page</h3>
+        <p>Interactive FAQ using vanilla JavaScript.</p>
+        <a href="https://task-13-vv8f.vercel.app/" class="btn">View Project</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="web">
+      <img src="images/comparison.png" alt="Project 4" class="modal-trigger">
+      <div class="card-content">
+        <h3>Testimonial Slider</h3>
+        <p>Slider with JS logic and smooth transitions.</p>
+        <a href="https://task-17-ada1.vercel.app/" class="btn">View Project</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="web">
+      <img src="images/Timeline.png" alt="Project 5" class="modal-trigger">
+      <div class="card-content">
+        <h3>Internship Timeline</h3>
+        <p>Timeline layout styled with Flexbox.</p>
+        <a href="https://task-16-gfza.vercel.app/" class="btn">View Project</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="mobile">
+      <img src="images/contatc.png" alt="Project 6" class="modal-trigger">
+      <div class="card-content">
+        <h3>Contact Form</h3>
+        <p>Validated contact form with modern UI.</p>
+        <a href="https://task-9-uis9.vercel.app/" class="btn">View Project</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="mobile">
+      <img src="images/certificate.png" alt="Project 7" class="modal-trigger">
+      <div class="card-content">
+        <h3>Certificate Showcase</h3>
+        <p>A showcase of my certificates and achievements.</p>
+        <a href="https://task-18-lern.vercel.app/" class="btn">View Project</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="web">
+      <img src="images/plan.png" alt="Project 8" class="modal-trigger">
+      <div class="card-content">
+        <h3>Compare Our Internship Plans</h3>
+        <p>A detailed comparison of our internship offerings.</p>
+        <a href="https://task-15-8bic.vercel.app/" class="btn">View Project</a>
+      </div>
+    </div>
+
+  </section>
+
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+    <div id="modal-caption"></div>
+  </div>
+
+  <button id="scrollToTopBtn">&#8679;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

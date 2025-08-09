@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compare Our Internship Plans</title>
+  <link rel="stylesheet" href="css.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <h1>Compare Our Internship Plans</h1>
+  <h2>Find the plan that fits your learning style</h2>
+
+  <div class="toggle-container">
+    <button id="monthlyBtn" class="active">Monthly</button>
+    <button id="yearlyBtn">Yearly</button>
+    <button id="sortBtn">Sort Features A-Z</button>
+  </div>
+
+  <!-- Table View (Desktop) -->
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Features</th>
+          <th>Basic</th>
+          <th>Standard</th>
+          <th class="highlight">Pro ⭐</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Weekly Live Mentorship</td>
+          <td>❌</td>
+          <td>✅</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Project-Based Learning</td>
+          <td>✅</td>
+          <td>✅</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Certificate of Completion</td>
+          <td>❌</td>
+          <td>✅</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td class="tooltip">Priority Support
+            <span class="tooltip-text">Get faster responses from mentors</span>
+          </td>
+          <td>❌</td>
+          <td>❌</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Resume Review</td>
+          <td>❌</td>
+          <td>✅</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Internship Letter</td>
+          <td>❌</td>
+          <td>✅</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Access to Community</td>
+          <td>✅</td>
+          <td>✅</td>
+          <td>✅</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Card View (Mobile) -->
+  <div class="card-container">
+    <div class="plan-card">
+      <h3>Basic</h3>
+      <ul>
+        <li>Weekly Live Mentorship: ❌</li>
+        <li>Project-Based Learning: ✅</li>
+        <li>Certificate of Completion: ❌</li>
+        <li>Priority Support: ❌</li>
+        <li>Resume Review: ❌</li>
+        <li>Internship Letter: ❌</li>
+        <li>Access to Community: ✅</li>
+      </ul>
+    </div>
+    <div class="plan-card">
+      <h3>Standard</h3>
+      <ul>
+        <li>Weekly Live Mentorship: ✅</li>
+        <li>Project-Based Learning: ✅</li>
+        <li>Certificate of Completion: ✅</li>
+        <li>Priority Support: ❌</li>
+        <li>Resume Review: ✅</li>
+        <li>Internship Letter: ✅</li>
+        <li>Access to Community: ✅</li>
+      </ul>
+    </div>
+    <div class="plan-card recommended">
+      <h3>Pro ⭐</h3>
+      <ul>
+        <li>Weekly Live Mentorship: ✅</li>
+        <li>Project-Based Learning: ✅</li>
+        <li>Certificate of Completion: ✅</li>
+        <li>Priority Support: ✅</li>
+        <li>Resume Review: ✅</li>
+        <li>Internship Letter: ✅</li>
+        <li>Access to Community: ✅</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

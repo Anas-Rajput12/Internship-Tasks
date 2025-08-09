@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Remote Internship</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Remote Internship Program</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact">
+      <h2 style="text-align: center;">Contact Us</h2>
+      <form id="contactForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" />
+      <span class="error" id="nameError"></span>
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" />
+      <span class="error" id="emailError"></span>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5"></textarea>
+      <span class="error" id="messageError"></span>
+
+      <button type="submit">Submit</button>
+      <p class="success" id="successMessage"></p>
+    </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Remote Internship Portal</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

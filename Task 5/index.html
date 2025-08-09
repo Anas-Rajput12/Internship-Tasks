@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Muhammad Anas Qadri</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header id="home">
+        <div class="container">
+            <h1>Muhammad Anas Qadri</h1>
+            <p>Web Developer Intern</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container fade-in">
+            <h2 style="text-align: center;">About Me</h2>
+            <div class="about-content">
+                <img src="profile.jpg" alt="Profile Picture" />
+                <p>
+                    I am a dedicated and versatile web developer intern with hands-on experience in front-end and
+                    back-end technologies. I specialize in building responsive user interfaces using HTML, CSS, and
+                    JavaScript, and have also worked with TypeScript for scalable codebases. My programming foundation
+                    is strong with experience in C, C++, C#, and Python. I'm actively learning and building projects
+                    using modern frameworks like React, Node.js, and Next.js to create full-stack applications. I enjoy
+                    solving problems, learning new tools, and turning creative ideas into real-world digital solutions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects">
+  <div class="container fade-in">
+    <h2 style="text-align: center;">Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>
+          A simple responsive personal portfolio built with Next.js, showcasing projects, skills, and
+          contact information. It uses modern React-based components and responsive design for seamless
+          viewing across devices.
+        </p>
+        <a href="https://portfolio-ars-projects-fb9de9cd.vercel.app/">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Blog Website</h3>
+        <p>
+          A responsive blog platform built using Next.js, featuring dynamic routing and optimized
+          performance. Designed to share articles with clean UI and fast navigation.
+        </p>
+        <a href="https://milestone-3-blog-website.vercel.app/">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Car Rental Website</h3>
+        <p>
+          A full-stack car rental web application where users can browse, select, and book cars. using Next.js for the front-end and Node.js for the back-end. It includes features like user authentication, car listings, and booking management.
+            </p>
+        <a href="https://project-rust-pi.vercel.app/">View Project</a> <!-- Replace with your actual link -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section id="contact">
+        <div class="container fade-in">
+            <h2 style="text-align: center;">Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" />
+                <span class="error" id="nameError"></span>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" />
+                <span class="error" id="emailError"></span>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+                <span class="error" id="messageError"></span>
+
+                <button type="submit">Submit</button>
+                <p class="success" id="successMessage"></p>
+            </form>
+        </div>
+    </section>
+
+    <button id="scrollTopBtn">↑</button>
+
+    <script src="script.js"></script>
+    <footer style="background-color: #005f73; color: #fff; padding: 20px 0; text-align: center;">
+        <div class="container">
+            <p>&copy; 2025 Muhammad Anas Qadri. All rights reserved.</p>
+            <p>Made with using HTML, CSS, JavaScript</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

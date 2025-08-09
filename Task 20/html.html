@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Internship Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Intern Panel</h2>
+      <nav>
+        <a href="#" class="active">Dashboard</a>
+        <a href="#">Tasks</a>
+        <a href="#">Progress</a>
+        <a href="#">Messages</a>
+        <a href="#" id="logoutBtn">Logout</a>
+      </nav>
+      <button id="toggleMode">🌙</button>
+    </aside>
+
+    <main>
+      <header>
+        <button id="menuToggle">☰</button>
+        <h1>Dashboard</h1>
+      </header>
+
+      <section class="dashboard">
+        <div class="card" data-target="15">
+          <h3>Tasks Completed</h3>
+          <p class="counter">0</p>
+        </div>
+        <div class="card" data-target="5">
+          <h3>Pending Assignments</h3>
+          <p class="counter">0</p>
+        </div>
+        <div class="card" data-target="8">
+          <h3>Messages</h3>
+          <p class="counter">0</p>
+        </div>
+        <div class="card" data-target="90">
+          <h3>Certificate Progress</h3>
+          <p class="counter">0%</p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer class="footer">
+  <p>&copy; 2025 Internship Program. All rights reserved.</p>
+  <p>Contact: <a href="mailto:support@internship.com">support@internship.com</a></p>
+</footer>
+
+
+  <button id="scrollTop">↑</button>
+  <div id="toast">Logout Successful</div>
+  <script src="script.js"></script>
+</body>
+</html>

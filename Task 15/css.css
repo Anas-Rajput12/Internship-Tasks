@@ -1,0 +1,144 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.toggle-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.toggle-container button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  background-color: #007BFF;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-container button.active {
+  background-color: #0056b3;
+}
+
+.table-container {
+  overflow-x: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background: #fff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 700px;
+}
+
+thead {
+  background: #007BFF;
+  color: #fff;
+}
+
+th, td {
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #253dc2;
+    color: #fff;
+}
+
+.highlight {
+  background-color: #fff3cd !important;
+    color: #000;
+}
+
+.tooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 180px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -90px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Mobile Card Layout */
+.card-container {
+  display: none;
+  margin-top: 30px;
+}
+.card-container h3{
+  background-color: #007BFF;
+  color: #fff;
+}
+
+.plan-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin: 15px auto;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.plan-card h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-card li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.plan-card.recommended {
+  border: 2px solid gold;
+  background-color: #fffbea;
+}
+
+@media (max-width: 768px) {
+  .table-container {
+    display: none;
+  }
+
+  .card-container {
+    display: block;
+  }
+}

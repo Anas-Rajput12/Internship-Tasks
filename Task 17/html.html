@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>What Our Interns Say</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+
+  <h1 class="main-title">What Our Interns Say</h1>
+  <p class="subtitle">Hear from those who’ve been on the journey</p>    
+
+  <section class="testimonials">
+    <div class="slider-container">
+      <button id="prev" class="nav-btn">&#10094;</button>
+
+      <div class="testimonial-wrapper">
+        <div class="testimonial-card active">
+          <img src="https://i.pravatar.cc/80?img=1" alt="Ali Khan"/>
+          <h3>Ali Khan</h3>
+          <p class="role">Web Developer Intern</p>
+          <div class="stars">★★★★★</div>
+          <p class="feedback">"This internship helped me build real-world projects..."</p>
+          <button class="read-more" data-full="This internship helped me build real-world projects. The team was incredibly supportive, the mentors offered insightful feedback, and I felt confident taking on real challenges.">Read More</button>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="https://i.pravatar.cc/80?img=5" alt="Sara Ahmed"/>
+          <h3>Sara Ahmed</h3>
+          <p class="role">Frontend Developer Intern</p>
+          <div class="stars">★★★★☆</div>
+          <p class="feedback">"An excellent platform to grow and get hands-on..."</p>
+          <button class="read-more" data-full="An excellent platform to grow and get hands-on with live frontend tasks. The challenges pushed me to improve and think creatively.">Read More</button>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="https://i.pravatar.cc/80?img=3" alt="Hamza Yousuf"/>
+          <h3>Hamza Yousuf</h3>
+          <p class="role">UI/UX Intern</p>
+          <div class="stars">★★★★★</div>
+          <p class="feedback">"I got a deep dive into UI/UX practices..."</p>
+          <button class="read-more" data-full="I got a deep dive into UI/UX practices. The environment was creative, collaborative, and encouraged exploration of new tools.">Read More</button>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="https://i.pravatar.cc/80?img=2" alt="Zainab Fatima"/>
+          <h3>Zainab Fatima</h3>
+          <p class="role">Backend Developer Intern</p>
+          <div class="stars">★★★★☆</div>
+          <p class="feedback">"Challenging tasks and real-world problem solving..."</p>
+          <button class="read-more" data-full="Challenging tasks and real-world problem solving made this internship incredibly rewarding. I was exposed to advanced backend systems.">Read More</button>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="https://i.pravatar.cc/80?img=7" alt="Usman Tariq"/>
+          <h3>Usman Tariq</h3>
+          <p class="role">Full Stack Intern</p>
+          <div class="stars">★★★★★</div>
+          <p class="feedback">"I improved my skills in frontend and backend..."</p>
+          <button class="read-more" data-full="I improved my skills in both frontend and backend technologies. The mentorship and reviews were detailed and very helpful.">Read More</button>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="https://i.pravatar.cc/80?img=8" alt="Nida Arshad"/>
+          <h3>Nida Arshad</h3>
+          <p class="role">QA & Testing Intern</p>
+          <div class="stars">★★★☆☆</div>
+          <p class="feedback">"The testing tasks were hands-on and insightful..."</p>
+          <button class="read-more" data-full="The testing tasks were hands-on and helped me understand QA practices in real-world scenarios. I gained confidence in automation tools.">Read More</button>
+        </div>
+      </div>
+
+      <button id="next" class="nav-btn">&#10095;</button>
+
+      <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+  <!-- Modal Popup -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="modal-text"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
