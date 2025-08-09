@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechMart</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+  <!-- CSS & JS -->
+  <link rel="stylesheet" href="css.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="header">
+  <div class="container">
+    <div class="branding">
+      <h1>TechMart</h1>
+    </div>
+
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#categories">Categories</a>
+      <a href="#featured">Cart <span id="cart-count">0</span></a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div id="toggleTheme" class="toggle-theme" title="Toggle Light/Dark Mode">☀️</div>
+  </div>
+</header>
+
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Smart Shopping Starts Here</h2>
+      <p>Browse products across categories with ease.</p>
+      <a href="#categories" class="btn">Browse Now</a>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section id="categories" class="section">
+    <h2>Shop by Category</h2>
+    <div class="category-cards">
+      
+      <div class="card">
+        <img src="https://static.webx.pk/files/4012/Images/11-4012-2260991-231124062743667.jpg" alt="Laptops" />
+        <h3>Laptops</h3>
+        <a href="#featured" class="btn">Explore</a>
+      </div>
+
+      <div class="card">
+        <img src="https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno14-series/list-page/reno14/448-600-white-v1.png" alt="Smartphones" />
+        <h3>Smartphones</h3>
+        <a href="#featured" class="btn">Explore</a>
+      </div>
+
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Die8u5HED6ADoWIv0gWiPQ5PY5M3WHtoMA&s" alt="Accessories" />
+        <h3>Accessories</h3>
+        <a href="#featured" class="btn">Explore</a>
+      </div>
+
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfWcF-1pqyA6zVOW1l-2Z5J2Uuhchy2ePTig&s" alt="Smart Home" />
+        <h3>Smart Home</h3>
+        <a href="#featured" class="btn">Explore</a>
+      </div>
+
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYk609VWD6xMQRa4RmbYo4Xe87iuZNXC1wCw&s" alt="Gaming" />
+        <h3>Gaming</h3>
+        <a href="#featured" class="btn">Explore</a>
+      </div>
+
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiEUkArbeS-OhaVkqZRAIjWZX88n56VDB97A&s" alt="Audio" />
+        <h3>Audio</h3>
+        <a href="#featured" class="btn">Explore</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section id="featured" class="section">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+
+      <div class="product-card">
+        <img src="https://static.webx.pk/files/4012/Images/11-4012-2260991-231124062743667.jpg" alt="Laptop" />
+        <h3>Ultrabook Pro 14</h3>
+        <p>$899</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno14-series/list-page/reno14/448-600-white-v1.png" alt="Phone" />
+        <h3>Smartphone X10</h3>
+        <p>$699</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Die8u5HED6ADoWIv0gWiPQ5PY5M3WHtoMA&s" alt="Accessories" />
+        <h3>Accessories</h3>
+        <p>$199</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfWcF-1pqyA6zVOW1l-2Z5J2Uuhchy2ePTig&s" alt="Smart Home" />
+        <h3>Smart Home Hub</h3>
+        <p>$129</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYk609VWD6xMQRa4RmbYo4Xe87iuZNXC1wCw&s" alt="Gaming" />
+        <h3>Gaming Gear</h3>
+        <p>$89</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiEUkArbeS-OhaVkqZRAIjWZX88n56VDB97A&s" alt="Headphones" />
+        <h3>Wireless Headphones</h3>
+        <p>$149</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <textarea id="message" placeholder="Message" required></textarea>
+      <button type="submit">Submit</button>
+      <p id="form-response"></p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <div>
+        <h3>Quick Links</h3>
+        <a href="#">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h3>Follow Us</h3>
+        <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+        <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+      </div>
+    </div>
+    <p>&copy; 2025 TechMart. All rights reserved.</p>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+</body>
+</html>

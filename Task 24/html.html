@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing Plans</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Our Plans</h1>
+    <p>Flexible options designed for every learner or client</p>
+
+    <!-- Toggle -->
+    <div class="toggle-container">
+      <span>Monthly</span>
+      <label class="switch">
+        <input type="checkbox" id="priceToggle">
+        <span class="slider round"></span>
+      </label>
+      <span>Yearly</span>
+    </div>
+  </header>
+
+  <!-- Pricing Cards -->
+  <section class="pricing">
+    <div class="card">
+      <h3>Starter</h3>
+      <p class="price" data-month="Free" data-year="Free">Free</p>
+      <ul>
+        <li>Basic Internship Access</li>
+        <li>Community Support</li>
+        <li>Limited Resources</li>
+        <li>No Certification</li>
+      </ul>
+      <button class="btn">Get Started</button>
+    </div>
+
+    <div class="card featured">
+      <h3>Pro</h3>
+      <p class="price" data-month="PKR 499/mo" data-year="PKR 4,999/yr">PKR 499/mo</p>
+      <ul>
+        <li>Full Internship Access</li>
+        <li>Mentor Guidance</li>
+        <li>Project Portfolio</li>
+        <li>Certification Included</li>
+        <li>Priority Support</li>
+      </ul>
+      <button class="btn">Get Started</button>
+    </div>
+
+    <div class="card">
+      <h3>Advanced</h3>
+      <p class="price" data-month="PKR 999/mo" data-year="PKR 9,999/yr">PKR 999/mo</p>
+      <ul>
+        <li>Everything in Pro</li>
+        <li>1-on-1 Mentor Sessions</li>
+        <li>Job Placement Assistance</li>
+        <li>Exclusive Resources</li>
+        <li>Lifetime Access</li>
+      </ul>
+      <button class="btn">Get Started</button>
+    </div>
+  </section>
+
+  <!-- Scroll to Top -->
+  <button id="scrollToTopBtn">↑</button>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Application Started!</h2>
+      <p>We’ll contact you soon with further details.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
